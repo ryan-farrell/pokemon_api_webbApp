@@ -1,0 +1,38 @@
+*{
+
+font-family: 'Hind', sans-serif;
+color: rgb(22, 17, 11)
+
+}
+
+body{
+background-image: url(./img/bg.jpg);
+background-position: center;
+margin: 5% 10% 0% 3%;
+padding: 0% 0% 0% 0%;
+
+}
+
+table, th, td{
+
+  border-style: dotted;
+
+}
+
+th {
+  background-color: antiquewhite;
+  color: black;
+
+}
+
+td {
+  background-color: cornflowerblue;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+img{
+background-color: rgba(105, 103, 103, 0.767);
+
+}

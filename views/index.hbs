@@ -1,0 +1,34 @@
+<h1>Pokemon API</h1>
+
+
+<p>The pokemon <strong>{{pokeObj.name}}</strong>.</p>
+
+
+<table style="width:80%">
+  <tr>
+
+    <th>Name</th>
+    <th>Height</th>
+    <th>Weight</th>
+    <th>Type</th>
+    <th>XP</th>
+
+  </tr>
+  <tr>
+    <td>{{{pokeObj.name}}}</td>
+    <td>{{{pokeObj.height}}}</td>
+    <td>{{{pokeObj.weight}}}</td>
+    <td>{{{pokeObj.type}}}</td>
+    <td>{{{pokeObj.xp}}}</td>
+
+
+  </tr>
+
+</table>
+
+<img src="{{pokeObj.img}}" width="200" height="200" />
+
+<form action="" method="get">
+  <input type="text" name="pokemon" placeholder="Pokemon name ...">
+  <button value="submit">Submit</button>
+</form>
